@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html>
+<title>Ryan's Portfolio</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+</style>
+<body class="w3-black">
+
+  <div class="w3-container w3-center w3-animate-top">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Hello! </span> <br> I'm Ryan Moshi</h1>
+    <p>The Co Founder of RETROSOFT.INC</p>
+    <img src="retro.png" alt="boy" class="w3-image" width="600" height="500">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am Ryan Moshi, a passionate young adult with an unwavering ambition to shape the future of technology.
+       I have already laid the foundation for multiple visionary enterprises, each with a distinct purpose and unyielding dedication to making a positive impact on humanity and the environment.
+      Firstly, Retrosoft.Inc stands at the forefront of technological innovation, driving the creation and advancement of cutting-edge solutions that prioritize the well-being of both humans and the natural world.
+      
+      Secondly, I.C.E embodies the spirit of innovation and creativity, empowering individuals of all ages to tackle real-world challenges with enthusiasm and ingenuity, revolutionizing how problems are solved.
+      
+      The journey doesn't end here. Soon, the world will witness the rise of other transformative ventures such as Retro Cybersafe, where cybersecurity and digital protection will redefine safety in the virtual landscape. The World Studio will emerge as a melting pot of creativity, uniting diverse talents to inspire global change through artistic expression and innovative storytelling. And lastly, Creative Technology will push the boundaries of what's possible, catalyzing breakthroughs that will reshape industries and elevate human experiences.
+      
+      With each of these enterprises, I envision a future where technology serves as a driving force for positive change, and where dreams turn into tangible realities. Together, we will usher in an era of progress and transformation that will leave a lasting legacy for generations to come.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Investing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Content Creation</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Author</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">987+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">128+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+   
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">What I Do</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basically</li>
+          <li class="w3-padding-16">Local Business</li>
+          <li class="w3-padding-16">Graphics Designing</li>
+          <li class="w3-padding-16">Video Editing</li>
+          <li class="w3-padding-16">
+            <h2>$10</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+         
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Investment Programs</li>
+          <li class="w3-padding-16">Content Creation</li>
+          <li class="w3-padding-16">Digital Marketing</li>
+          <li class="w3-padding-16">
+            <h2>$25</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Supervisors and Team</h3>
+    <div id="myambassadors">
+
+    <img src="dad.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Emmauel Moshi,</span>C.E.O at Manu Electrical Company</p>
+    <p>He is a great Man and also a great Dad.He has helped go through some of the basic lessons of life. </p>
+    <br><br>
+    <img src="mom.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Regina Moshi,</span>C.E.O at R.E.Electrical</p>
+    <p>She is a good woman and also the best Mom anyone could have. She does every job to perfection and nothing is left behind.</p>
+    <br>
+    <img src="otto.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Otto Alex,</span>Trade manager at Retro Corporation.
+    <p>Awesome work!He is a good and humbled with anyone. He gets every job done</p>
+    <br>
+    <img src="kelvin.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Kelvin Moshi,</span>Assistant Director at Creative Technology.
+    <p>He is a good man and completes what he is told. Nice for the commanding job</p>
+    <br>
+    <img src="praygod.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Praygod Moshi,</span>Certified Information and Security.
+    <p>He is a good man. Gets every task so simple and easy. He is ready to do anything for development.</p>
+    <br><br><br><br><br>
+    <img src="rooney.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rooney Moshi,</span>C.E.O of Cyclone Organisation
+    <p>On every task he is there to make it work. Very loyal and hardworking.</p>
+    <br><br>
+    <img src="ryan.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Ryan Moshi,</span>C.E.O of Retrosoft Corporation
+    <p>This is the beginning and ending of every matter concerning technology,lifestyle,nature and humans themselves. He serves the best services to all.</p>
+    <br>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Some of the Companies i have established</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="1.jpg" style="width:100%">
+        <img src="retro.png" style="width:100%">
+        <img src="2.png"width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="3.png" style="width:100%">
+        <img src="4.jpg" style="width:100%">
+        <img src="4.png" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Arusha, Tanzania</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +255 673476876</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: retrosoft.inc@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="info.php" target="_blank">
+     
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+         <a href="https://forms.gle/8Pde96cy2mRBFqu98" style="text-decoration: none;"><i class="fa fa-paper-plane"></i> SEND ME MESSAGE</a>
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+
+</div>
+</body>
+</html>
